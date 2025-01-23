@@ -33,7 +33,6 @@
 
 class Tiempo(var hora: Int, var minuto: Int, var segundo: Int)  {
 
-
     //Muestra el tiempo en formato XXh XXm XXs
     override fun toString(): String {
         return "${hora}h ${minuto}m ${segundo}s"
